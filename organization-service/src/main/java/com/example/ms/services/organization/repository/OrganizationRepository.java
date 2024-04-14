@@ -4,7 +4,7 @@ import java.util.*;
 
 import com.example.ms.services.organization.model.Organization;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
 public class OrganizationRepository {

@@ -4,7 +4,7 @@ import io.quarkus.test.Mock;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 import com.example.ms.services.organization.model.Department;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.util.Collections;
 import java.util.List;
 

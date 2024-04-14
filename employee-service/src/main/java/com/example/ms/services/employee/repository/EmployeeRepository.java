@@ -3,8 +3,7 @@ package com.example.ms.services.employee.repository;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import javax.annotation.PostConstruct;
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 
 import com.example.ms.services.employee.model.Employee;
 

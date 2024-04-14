@@ -1,6 +1,6 @@
 package com.example.ms.services.department.repository;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 
 import com.example.ms.services.department.model.Department;
 

@@ -8,10 +8,10 @@ import com.example.ms.services.organization.client.EmployeeClient;
 import com.example.ms.services.organization.model.Organization;
 import com.example.ms.services.organization.repository.OrganizationRepository;
 
-import javax.inject.Inject;
-import javax.validation.Valid;
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
+import jakarta.inject.Inject;
+import jakarta.validation.Valid;
+import jakarta.ws.rs.*;
+import jakarta.ws.rs.core.MediaType;
 import java.util.Set;
 
 @Path("/organizations")

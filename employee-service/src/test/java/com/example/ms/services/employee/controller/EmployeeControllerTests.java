@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import com.example.ms.services.employee.model.Employee;
 import com.example.ms.services.employee.repository.EmployeeRepository;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.notNullValue;

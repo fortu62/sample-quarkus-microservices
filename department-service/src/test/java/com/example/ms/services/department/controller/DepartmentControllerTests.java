@@ -16,7 +16,7 @@ import com.example.ms.services.department.repository.DepartmentRepository;
 
 import com.example.ms.services.department.client.EmployeeClient;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
