@@ -36,7 +36,8 @@ public class OrganizationControllerTests {
     public void testFindByIdWithDepartments() {
         given().when().get("/organizations/{id}/with-departments", 1L).then().statusCode(200)
                 .body(notNullValue())
-                .body("departments.size()", is(1));
+                // TODO: how many departments do we have?
+                .body("departments.size()", is(3));
     }
 
     @Test

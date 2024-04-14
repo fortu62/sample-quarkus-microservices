@@ -29,7 +29,8 @@ public class EmployeeControllerTests {
         employee = repository.add(employee);
         given().when().get("/employees/{id}", employee.getId()).then().statusCode(200)
                 .body("id", equalTo(employee.getId().intValue()))
-                .body("name", equalTo(employee.getName()))
+                // TODO: is Joe the right name?
+                .body("name", equalTo("Joe"))
                 .body("position", equalTo(employee.getPosition()));
     }
 

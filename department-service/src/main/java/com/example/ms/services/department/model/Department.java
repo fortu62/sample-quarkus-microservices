@@ -21,7 +21,7 @@ public class Department {
     public Department(Long organizationId, String name) {
         super();
         this.organizationId = organizationId;
-        this.name = name;
+        // TODO: init name
     }
 
     public Long getId() {

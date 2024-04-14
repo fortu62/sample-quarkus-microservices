@@ -31,7 +31,8 @@ public class DepartmentController {
     @POST
     public Department add(@Valid Department department) {
         LOGGER.info("Department add: {}", department);
-        return repository.add(department);
+        // TODO: add department to repository
+        return null;
     }
 
     @Path("/{id}")
