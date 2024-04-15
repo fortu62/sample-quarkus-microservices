@@ -22,6 +22,7 @@ public class Department {
         super();
         this.organizationId = organizationId;
         // TODO: init name
+        this.name = name;
     }
 
     public Long getId() {

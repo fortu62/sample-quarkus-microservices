@@ -30,7 +30,7 @@ public class EmployeeControllerTests {
         given().when().get("/employees/{id}", employee.getId()).then().statusCode(200)
                 .body("id", equalTo(employee.getId().intValue()))
                 // TODO: is Joe the right name?
-                .body("name", equalTo("Joe"))
+                .body("name", equalTo("Adrien Hamilton"))
                 .body("position", equalTo(employee.getPosition()));
     }
 
